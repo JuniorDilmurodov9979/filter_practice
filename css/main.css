@@ -1,0 +1,33 @@
+.container {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+}
+.list li {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 250px;
+    padding: 20px;
+    border: 1px solid black;
+}
+.list p {
+    font-size: 18px;
+}
+select,.js-input {
+    width: 250px;
+    padding: 15px;
+    font-size: 18px;
+}
+.js-btn {
+    width: 140px;
+    padding: 15px;
+}
